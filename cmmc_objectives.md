@@ -116,6 +116,7 @@
   - mechanisms are in place to remove and address improper posting of CUI.
 
 # Awareness and Training (AT)
+
 ### 3.2.1
 - Ensure that managers, systems administrators, and users of organizational systems are made aware of the security risks associated with their activities and of the applicable policies, standards, and procedures related to the security of those systems.
   - security risks associated with organizational activities involving CUI are identified.
@@ -131,6 +132,9 @@
 - Provide security awareness training on recognizing and reporting potential indicators of insider threat.
   - potential indicators associated with insider threats are identified.
   - security awareness training on recognizing and reporting potential indicators of insider threat is provided to managers and employees.
+
+# Audit and Accountability (AU)
+
 ### 3.3.1
 - Create and retain system audit logs and records to the extent needed to enable the monitoring, analysis, investigation, and reporting of unlawful or unauthorized system activity.
   - audit logs needed (i.e., event types to be logged) to enable the monitoring, analysis, investigation, and reporting of unlawful or unauthorized system activity are specified.
@@ -178,6 +182,9 @@
 - Limit management of audit logging functionality to a subset of privileged users.
   - a subset of privileged users granted access to manage audit logging functionality is defined.
   - management of audit logging functionality is limited to the defined subset of privileged users.
+
+# Configuration Management (CM)
+
 ### 3.4.1
 - Establish and maintain baseline configurations and inventories of organizational systems (including hardware, software, firmware, and documentation) throughout the respective system development life cycles.
   - a baseline configuration is established.
