@@ -246,6 +246,9 @@
   - a policy for controlling the installation of software by users is established.
   - installation of software by users is controlled based on the established policy.
   - installation of software by users is monitored.
+
+# Identification and Authentication (IA)
+
 ### 3.5.1
 - Identify system users, processes acting on behalf of users, and devices.
   - system users are identified.
@@ -290,6 +293,9 @@
   - passwords are cryptographically protected in transit.
 ### 3.5.11
 - Obscure feedback of authentication information.
+
+# Incident Response (IR)
+
 ### 3.6.1
 - Establish an operational incident-handling capability for organizational systems that includes preparation, detection, analysis, containment, recovery, and user response activities.
   - an operational incident-handling capability is established.
@@ -309,6 +315,9 @@
   - identified organizational officials are notified of incidents.
 ### 3.6.3
 - Test the organizational incident response capability.
+
+# Maintenance (MA)
+
 ### 3.7.1
 - Perform maintenance on organizational systems.
 ### 3.7.2
@@ -327,6 +336,9 @@
   - nonlocal maintenance sessions established via external network connections are terminated when nonlocal maintenance is complete.
 ### 3.7.6
 - Supervise the maintenance activities of maintenance personnel without required access authorization.
+
+# Media Protection (MP)
+
 ### 3.8.1
 - Protect (i.e., physically control and securely store) system media containing CUI, both paper and digital.
   - paper media containing CUI is physically controlled.
@@ -355,6 +367,9 @@
 - Prohibit the use of portable storage devices when such devices have no identifiable owner.
 ### 3.8.9
 - Protect the confidentiality of backup CUI at storage locations.
+
+# Personnel Security (PS)
+
 ### 3.9.1
 - Screen individuals prior to authorizing access to organizational systems containing CUI.
 ### 3.9.2
@@ -362,6 +377,9 @@
   - a policy and/or process for terminating system access authorization and any credentials coincident with personnel actions is established.
   - system access and credentials are terminated consistent with personnel actions such as termination or transfer.
   - the system is protected during and after personnel transfer actions.
+
+# Physical Protection (PE)
+
 ### 3.10.1
 - Limit physical access to organizational systems, equipment, and the respective operating environments to authorized individuals.
   - authorized individuals allowed physical access are identified.
@@ -389,6 +407,9 @@
 - Enforce safeguarding measures for CUI at alternate work sites.
   - safeguarding measures for CUI are defined for alternate work sites.
   - safeguarding measures for CUI are enforced for alternate work sites.
+
+
+
 ### 3.11.1
 - Periodically assess the risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals, resulting from the operation of organizational systems and the associated processing, storage, or transmission of CUI
   - the frequency to assess risk to organizational operations, organizational assets, and individuals is defined.
@@ -404,6 +425,9 @@
 - Remediate vulnerabilities in accordance with risk assessments.
   - vulnerabilities are identified.
   - vulnerabilities are remediated in accordance with risk assessments.
+
+
+
 ### 3.12.1
 - Periodically assess the security controls in organizational systems to determine if the controls are effective in their application.
   - the frequency of security control assessments is defined.
@@ -424,6 +448,9 @@
   - the method of security requirement implementation is described and documented in the system security plan.
   - the relationship with or connection to other systems is described and documented in the system security plan.
   - the frequency to update the system security plan is defined.
+
+
+
 ### 3.13.1
 - Monitor, control, and protect communications (i.e., information transmitted or received by organizational systems) at the external boundaries and key internal boundaries of organizational systems.
   - the external system boundary is defined.
@@ -487,6 +514,9 @@
 - Protect the authenticity of communications sessions
 ### 3.13.16
 - Protect the confidentiality of CUI at rest.
+
+
+
 ### 3.14.1
 - Identify, report, and correct system flaws in a timely manner.
   - the time within which to identify system flaws is specified.
