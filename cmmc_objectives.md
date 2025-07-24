@@ -318,61 +318,70 @@
 
 # Maintenance (MA)
 
-### 3.7.1
+### MA.L2-3.7.1 – PERFORM MAINTENANCE
 - Perform maintenance on organizational systems.
-### 3.7.2
+  - system maintenance is performed.
+### MA.L2-3.7.2 – SYSTEM MAINTENANCE CONTROL
 - Provide controls on the tools, techniques, mechanisms, and personnel used to conduct system maintenance.
   - tools used to conduct system maintenance are controlled.
   - techniques used to conduct system maintenance are controlled.
   - mechanisms used to conduct system maintenance are controlled.
   - personnel used to conduct system maintenance are controlled.
-### 3.7.3
+### MA.L2-3.7.3 – EQUIPMENT SANITIZATION
 - Ensure equipment removed for off-site maintenance is sanitized of any CUI.
-### 3.7.4
+  - equipment to be removed from organizational spaces for off-site maintenance is sanitized of any CUI.
+### MA.L2-3.7.4 – MEDIA INSPECTION
 - Check media containing diagnostic and test programs for malicious code before the media are used in organizational systems
-### 3.7.5
+ - media containing diagnostic and test programs are checked for malicious code before being used in organizational systems that process, store, or transmit CUI.
+### MA.L2-3.7.5 – NONLOCAL MAINTENANCE
 - Require multifactor authentication to establish nonlocal maintenance sessions via external network connections and terminate such connections when nonlocal maintenance is complete.
   - multifactor authentication is required to establish nonlocal maintenance sessions via external network connections.
   - nonlocal maintenance sessions established via external network connections are terminated when nonlocal maintenance is complete.
-### 3.7.6
+### MA.L2-3.7.6 – MAINTENANCE PERSONNEL
 - Supervise the maintenance activities of maintenance personnel without required access authorization.
+  - maintenance personnel without required access authorization are supervised during maintenance activities.
 
 # Media Protection (MP)
 
-### 3.8.1
+### MP.L2-3.8.1 – MEDIA PROTECTION
 - Protect (i.e., physically control and securely store) system media containing CUI, both paper and digital.
   - paper media containing CUI is physically controlled.
   - digital media containing CUI is physically controlled.
   - paper media containing CUI is securely stored.
   - digital media containing CUI is securely stored.
-### 3.8.2
+### MP.L2-3.8.2 – MEDIA ACCESS
 - Limit access to CUI on system media to authorized users.
+  - access to CUI on system media is limited to authorized users.
 ### 3.8.3
 - Sanitize or destroy system media containing CUI before disposal or release for reuse.
   - system media containing CUI is sanitized or destroyed before disposal.
   - system media containing CUI is sanitized before it is released for reuse.
-### 3.8.4
+### MP.L2-3.8.4 – MEDIA MARKINGS
 - Mark media with necessary CUI markings and distribution limitations.
   - media containing CUI is marked with applicable CUI markings.
   - media containing CUI is marked with distribution limitations.
-### 3.8.5
+### MP.L2-3.8.5 – MEDIA ACCOUNTABILITY
 - Control access to media containing CUI and maintain accountability for media during transport outside of controlled areas.
   - access to media containing CUI is controlled.
   - accountability for media containing CUI is maintained during transport outside of controlled areas.
-### 3.8.6
+### MP.L2-3.8.6 – PORTABLE STORAGE ENCRYPTION
 - Implement cryptographic mechanisms to protect the confidentiality of CUI stored on digital media during transport unless otherwise protected by alternative physical safeguards.
+  - the confidentiality of CUI stored on digital media is protected during transport using cryptographic mechanisms or alternative physical safeguards.
 ### 3.8.7
 - Control the use of removable media on system components.
-### 3.8.8
+  - the use of removable media on system components is controlled.
+### MP.L2-3.8.8 – SHARED MEDIA
 - Prohibit the use of portable storage devices when such devices have no identifiable owner.
-### 3.8.9
+  - the use of portable storage devices is prohibited when such devices have no identifiable owner.
+### MP.L2-3.8.9 – PROTECT BACKUPS
 - Protect the confidentiality of backup CUI at storage locations.
+  - the confidentiality of backup CUI is protected at storage locations.
 
 # Personnel Security (PS)
 
-### 3.9.1
+### PS.L2-3.9.1 – SCREEN INDIVIDUALS
 - Screen individuals prior to authorizing access to organizational systems containing CUI.
-### 3.9.2
+### PS.L2-3.9.2 – PERSONNEL ACTIONS
 - Ensure that organizational systems containing CUI are protected during and after personnel actions such as terminations and transfers.
   - a policy and/or process for terminating system access authorization and any credentials coincident with personnel actions is established.
   - system access and credentials are terminated consistent with personnel actions such as termination or transfer.
@@ -380,66 +389,66 @@
 
 # Physical Protection (PE)
 
-### 3.10.1
+### PE.L1-3.10.1 – LIMIT PHYSICAL ACCESS
 - Limit physical access to organizational systems, equipment, and the respective operating environments to authorized individuals.
   - authorized individuals allowed physical access are identified.
   - physical access to organizational systems is limited to authorized individuals.
   - physical access to equipment is limited to authorized individuals.
   - physical access to operating environments is limited to authorized individuals.
-### 3.10.2
+### PE.L2-3.10.2 – MONITOR FACILITY
 - Protect and monitor the physical facility and support infrastructure for organizational systems.
   - the physical facility where that system resides is protected.
   - the support infrastructure for that system is protected.
   - the physical facility where that system resides is monitored.
   - the support infrastructure for that system is monitored.
-### 3.10.3
+### PE.L1-3.10.3 – ESCORT VISITORS
 - Escort visitors and monitor visitor activity.
   - visitors are escorted.
   - visitor activity is monitored.
-### 3.10.4
+### PE.L1-3.10.4 – PHYSICAL ACCESS LOGS
 - Maintain audit logs of physical access.
-### 3.10.5
+### PE.L1-3.10.5 – MANAGE PHYSICAL ACCESS
 - Control and manage physical access devices.
   - physical access devices are identified.
   - physical access devices are controlled.
   - physical access devices are managed.
-### 3.10.6
+### PE.L2-3.10.6 – ALTERNATIVE WORK SITES
 - Enforce safeguarding measures for CUI at alternate work sites.
   - safeguarding measures for CUI are defined for alternate work sites.
   - safeguarding measures for CUI are enforced for alternate work sites.
 
 # Risk Assessment (RA)
 
-### 3.11.1
+### RA.L2-3.11.1 – RISK ASSESSMENTS
 - Periodically assess the risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals, resulting from the operation of organizational systems and the associated processing, storage, or transmission of CUI
   - the frequency to assess risk to organizational operations, organizational assets, and individuals is defined.
   - risk to organizational operations, organizational assets, and individuals resulting from the operation of an organizational system that processes, stores, or transmits CUI is assessed with the defined frequency.
-### 3.11.2
+### RA.L2-3.11.2 – VULNERABILITY SCAN
 - Scan for vulnerabilities in organizational systems and applications periodically and when new vulnerabilities affecting those systems and applications are identified.
   - the frequency to scan for vulnerabilities in an organizational system and its applications that process, store, or transmit CUI is defined.
   - vulnerability scans are performed in an organizational system that processes, stores, or transmits CUI with the defined frequency.
   - vulnerability scans are performed in an application that contains CUI with the defined frequency.
   - vulnerability scans are performed in an organizational system that processes, stores, or transmits CUI when new vulnerabilities are identified.
   - vulnerability scans are performed in an application that contains CUI when new vulnerabilities are identified.
-### 3.11.3
+### RA.L2-3.11.3 – VULNERABILITY REMEDIATION
 - Remediate vulnerabilities in accordance with risk assessments.
   - vulnerabilities are identified.
   - vulnerabilities are remediated in accordance with risk assessments.
 
 # Security Assessment (CA)
 
-### 3.12.1
+### CA.L2-3.12.1 – SECURITY CONTROL ASSESSMENT
 - Periodically assess the security controls in organizational systems to determine if the controls are effective in their application.
   - the frequency of security control assessments is defined.
   - security controls are assessed with the defined frequency to determine if the controls are effective in their application.
-### 3.12.2
+### CA.L2-3.12.2 – PLAN OF ACTION
 - Develop and implement plans of action designed to correct deficiencies and reduce or eliminate vulnerabilities in organizational systems
   - deficiencies and vulnerabilities to be addressed by the plan of action are identified.
   - a plan of action is developed to correct identified deficiencies and reduce or eliminate identified vulnerabilities.
   - the plan of action is implemented to correct identified deficiencies and reduce or eliminate identified vulnerabilities.
-### 3.12.3
+### CA.L2-3.12.3 – SECURITY CONTROL MONITORING
 - Monitor security controls on an ongoing basis to ensure the continued effectiveness of the controls.
-### 3.12.4
+### CA.L2-3.12.4 – SYSTEM SECURITY PLAN
 - Develop, document, and periodically update system security plans that describe system boundaries, system environments of operation, how security requirements are implemented, and the relationships with or connections to other systems.
   - a system security plan is developed.
   - the system boundary is described and documented in the system security plan.
@@ -451,7 +460,7 @@
 
 # System and Communications Protection (SC)
 
-### 3.13.1
+### SC.L1-3.13.1 – BOUNDARY PROTECTION
 - Monitor, control, and protect communications (i.e., information transmitted or received by organizational systems) at the external boundaries and key internal boundaries of organizational systems.
   - the external system boundary is defined.
   - key internal system boundaries are defined.
@@ -461,7 +470,7 @@
   - communications are controlled at key internal boundaries.
   - communications are protected at the external system boundary.
   - communications are protected at key internal boundaries.
-### 3.13.2
+### SC.L2-3.13.2 – SECURITY ENGINEERING
 - Employ architectural designs, software development techniques, and systems engineering principles that promote effective information security within organizational systems.
   - architectural designs that promote effective information security are identified.
   - software development techniques that promote effective information security are identified.
@@ -469,55 +478,60 @@
   - identified architectural designs that promote effective information security are employed.
   - identified software development techniques that promote effective information security are employed.
   - identified systems engineering principles that promote effective information security are employed.
-### 3.13.3
+### SC.L2-3.13.3 – ROLE SEPARATION
 - Separate user functionality from system management functionality.
   - user functionality is identified.
   - system management functionality is identified.
   - user functionality is separated from system management functionality.
-### 3.13.4
+### SC.L2-3.13.4 – SHARED RESOURCE CONTROL
 - Prevent unauthorized and unintended information transfer via shared system resources.
-### 3.13.5
+### SC.L1-3.13.5 – PUBLIC-ACCESS SYSTEM SEPARATION
 - Implement subnetworks for publicly accessible system components that are physically or logically separated from internal networks.
   - publicly accessible system components are identified.
   - subnetworks for publicly accessible system components are physically or logically separated from internal networks.
-### 3.13.6
+### SC.L2-3.13.6 – NETWORK COMMUNICATION BY EXCEPTION
 - Deny network communications traffic by default and allow network communications traffic by exception (i.e., deny all, permit by exception).
   - network communications traffic is denied by default.
   - network communications traffic is allowed by exception.
-### 3.13.7
+### SC.L2-3.13.7 – SPLIT TUNNELING
 - Prevent remote devices from simultaneously establishing non-remote connections with organizational systems and communicating via some other connection to resources in external networks (i.e., split tunneling).
-### 3.13.8
+### SC.L2-3.13.8 – DATA IN TRANSIT
 - Implement cryptographic mechanisms to prevent unauthorized disclosure of CUI during transmission unless otherwise protected by alternative physical safeguards.
   - cryptographic mechanisms intended to prevent unauthorized disclosure of CUI are identified.
   - alternative physical safeguards intended to prevent unauthorized disclosure of CUI are identified.
   - either cryptographic mechanisms or alternative physical safeguards are implemented to prevent unauthorized disclosure of CUI during transmission.
-### 3.13.9
+### SC.L2-3.13.9 – CONNECTIONS TERMINATION
 - Terminate network connections associated with communications sessions at the end of the sessions or after a defined period of inactivity.
   - a period of inactivity to terminate network connections associated with communications sessions is defined.
   - network connections associated with communications sessions are terminated at the end of the sessions.
   - network connections associated with communications sessions are terminated after the defined period of inactivity.
-### 3.13.10
+### SC.L2-3.13.10 – KEY MANAGEMENT
 - Establish and manage cryptographic keys for cryptography employed in organizational systems.
   - cryptographic keys are established whenever cryptography is employed.
   - cryptographic keys are managed whenever cryptography is employed.
-### 3.13.11
+### SC.L2-3.13.11 – CUI ENCRYPTION
 - Employ FIPS-validated cryptography when used to protect the confidentiality of CUI.
-### 3.13.13
+### SC.L2-3.13.12 – COLLABORATIVE DEVICE CONTROL
+- Prohibit remote activation of collaborative computing devices and provide indication of devices in use to users present at the device.
+  - collaborative computing devices are identified;
+  - collaborative computing devices provide indication to users of devices in use; and
+  - remote activation of collaborative computing devices is prohibited.
+### SC.L2-3.13.13 – MOBILE CODE
 - Control and monitor the use of mobile code.
   - use of mobile code is controlled.
   - use of mobile code is monitored.
-### 3.13.14
+### SC.L2-3.13.14 – VOICE OVER INTERNET PROTOCOL
 - Control and monitor the use of Voice over Internet Protocol (VoIP) technologies
   - use of Voice over Internet Protocol (VoIP) technologies is controlled.
   - use of Voice over Internet Protocol (VoIP) technologies is monitored.
-### 3.13.15
+### SC.L2-3.13.15 – COMMUNICATIONS AUTHENTICITY
 - Protect the authenticity of communications sessions
-### 3.13.16
+### SC.L2-3.13.16 – DATA AT REST
 - Protect the confidentiality of CUI at rest.
 
 # System and Information Integrity (SI)
 
-### 3.14.1
+### SI.L1-3.14.1 – FLAW REMEDIATION
 - Identify, report, and correct system flaws in a timely manner.
   - the time within which to identify system flaws is specified.
   - system flaws are identified within the specified time frame.
@@ -525,28 +539,28 @@
   - system flaws are reported within the specified time frame.
   - the time within which to correct system flaws is specified.
   - system flaws are corrected within the specified time frame.
-### 3.14.2
+### SI.L1-3.14.2 – MALICIOUS CODE PROTECTION
 - Provide protection from malicious code at designated locations within organizational systems.
   - designated locations for malicious code protection are identified.
   - protection from malicious code at designated locations is provided.
-### 3.14.3
+### SI.L2-3.14.3 – SECURITY ALERTS & ADVISORIES
 - Monitor system security alerts and advisories and take action in response.
   - response actions to system security alerts and advisories are identified.
   - system security alerts and advisories are monitored.
   - actions in response to system security alerts and advisories are taken.
-### 3.14.4
+### SI.L1-3.14.4 – UPDATE MALICIOUS CODE PROTECTION
 - Update malicious code protection mechanisms when new releases are available.
-### 3.14.5
+### SI.L1-3.14.5 – SYSTEM & FILE SCANNING
 - Perform periodic scans of organizational systems and real-time scans of files from external sources as files are downloaded, opened, or executed.
   - the frequency for malicious code scans is defined.
   - malicious code scans are performed with the defined frequency.
   - real-time malicious code scans of files from external sources as files are downloaded, opened, or executed are performed.
-### 3.14.6
+### SI.L2-3.14.6 – MONITOR COMMUNICATIONS FOR ATTACKS
 - Monitor organizational systems, including inbound and outbound communications traffic, to detect attacks and indicators of potential attacks
   - the system is monitored to detect attacks and indicators of potential attacks.
   - inbound communications traffic is monitored to detect attacks and indicators of potential attacks.
   - outbound communications traffic is monitored to detect attacks and indicators of potential attacks.
-### 3.14.7
+### SI.L2-3.14.7 – IDENTIFY UNAUTHORIZED USE
 - Identify unauthorized use of organizational systems.
   - authorized use of the system is defined.
   - unauthorized use of the system is identified.
