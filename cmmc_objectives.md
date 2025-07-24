@@ -408,7 +408,7 @@
   - safeguarding measures for CUI are defined for alternate work sites.
   - safeguarding measures for CUI are enforced for alternate work sites.
 
-
+# Risk Assessment (RA)
 
 ### 3.11.1
 - Periodically assess the risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals, resulting from the operation of organizational systems and the associated processing, storage, or transmission of CUI
@@ -426,7 +426,7 @@
   - vulnerabilities are identified.
   - vulnerabilities are remediated in accordance with risk assessments.
 
-
+# Security Assessment (CA)
 
 ### 3.12.1
 - Periodically assess the security controls in organizational systems to determine if the controls are effective in their application.
@@ -449,7 +449,7 @@
   - the relationship with or connection to other systems is described and documented in the system security plan.
   - the frequency to update the system security plan is defined.
 
-
+# System and Communications Protection (SC)
 
 ### 3.13.1
 - Monitor, control, and protect communications (i.e., information transmitted or received by organizational systems) at the external boundaries and key internal boundaries of organizational systems.
@@ -515,7 +515,7 @@
 ### 3.13.16
 - Protect the confidentiality of CUI at rest.
 
-
+# System and Information Integrity (SI)
 
 ### 3.14.1
 - Identify, report, and correct system flaws in a timely manner.
