@@ -1,4 +1,4 @@
-### 3.1.1 AUTHORIZED ACCESS CONTROL
+### AC.L1-3.1.1 – AUTHORIZED ACCESS CONTROL
 - Limit system access to authorized users, processes acting on behalf of authorized users, and devices (including other systems).
   - authorized users are identified.
   - processes acting on behalf of authorized users are identified.
@@ -6,93 +6,93 @@
   - system access is limited to authorized users.
   - system access is limited to processes acting on behalf of authorized users.
   - system access is limited to authorized devices (including other systems).
-### 3.1.2 TRANSACTION & FUNCTION CONTROL
+### AC.L1-3.1.2 – TRANSACTION & FUNCTION CONTROL
 - Limit system access to the types of transactions and functions that authorized users are permitted to execute.
   - the types of transactions and functions that authorized users are permitted to execute are defined
   - system access is limited to the defined types of transactions and functions for authorized users.
-### 3.1.3
+### AC.L2-3.1.3 – CONTROL CUI FLOW
 - Control the flow of CUI in accordance with approved authorizations.
   - information flow control policies are defined.
   - methods and enforcement mechanisms for controlling the flow of CUI are defined.
   - designated sources and destinations (e.g., networks, individuals, and devices) for CUI within systems and between interconnected systems are identified.
   - authorizations for controlling the flow of CUI are defined.
   - approved authorizations for controlling the flow of CUI are enforced.
-### 3.1.4
+### AC.L2-3.1.4 – SEPARATION OF DUTIES
 - Separate the duties of individuals to reduce the risk of malevolent activity without collusion.
   - the duties of individuals requiring separation to reduce the risk of malevolent activity are defined.
   - organization-defined duties of individuals requiring separation are separated.
   - separate accounts for individuals whose duties and accesses must be separated to reduce the risk of malevolent activity or collusion are established
-### 3.1.5
+### AC.L2-3.1.5 – LEAST PRIVILEGE
 - Employ the principle of least privilege, including for specific security functions and privileged accounts.
   - privileged accounts are identified.
   - access to privileged accounts is authorized in accordance with the principle of least privilege.
   - security functions are identified.
   - access to security functions is authorized in accordance with the principle of least privilege.
-### 3.1.6
+### AC.L2-3.1.6 – NON-PRIVILEGED ACCOUNT USE
 - Use non-privileged accounts or roles when accessing nonsecurity functions.
   - nonsecurity functions are identified.
   - users are required to use non-privileged accounts or roles when accessing nonsecurity functions.
-### 3.1.7
+### AC.L2-3.1.7 – PRIVILEGED FUNCTIONS
 - Prevent non-privileged users from executing privileged functions and capture the execution of such functions in audit logs.
   - privileged functions are defined.
   - non-privileged users are defined.
   - non-privileged users are prevented from executing privileged functions.
   - the execution of privileged functions is captured in audit logs.
-### 3.1.8
+### AC.L2-3.1.8 – UNSUCCESSFUL LOGON ATTEMPTS
 - Limit unsuccessful logon attempts.
   - the means of limiting unsuccessful logon attempts is defined.
   - the defined means of limiting unsuccessful logon attempts is implemented.
-### 3.1.9
+### AC.L2-3.1.9 – PRIVACY & SECURITY NOTICES
 - Provide privacy and security notices consistent with applicable CUI rules.
   - privacy and security notices required by CUI-specified rules are identified, consistent, and associated with the specific CUI category
   - privacy and security notices are displayed.
-### 3.1.10
+### AC.L2-3.1.10 – SESSION LOCK
 - Use session lock with pattern-hiding displays to prevent access and viewing of data after a period of inactivity.
   - the period of inactivity after which the system initiates a session lock is defined.
   - access to the system and viewing of data is prevented by initiating a session lock after the defined period of inactivity.
   - previously visible information is concealed via a pattern-hiding display after the defined period of inactivity.
-### 3.1.11
+### AC.L2-3.1.11 – SESSION TERMINATION
 - Terminate (automatically) a user session after a defined condition.
   - conditions requiring a user session to terminate are defined.
   - a user session is automatically terminated after any of the defined conditions occur.
-### 3.1.12
+### AC.L2-3.1.12 – CONTROL REMOTE ACCESS
 - Monitor and control remote access sessions.
   - remote access sessions are permitted.
   - the types of permitted remote access are identified.
   - remote access sessions are controlled.
   - remote access sessions are monitored.
-### 3.1.13
+### AC.L2-3.1.13 – REMOTE ACCESS CONFIDENTIALITY
 - Employ cryptographic mechanisms to protect the confidentiality of remote access sessions.
   - cryptographic mechanisms to protect the confidentiality of remote access sessions are identified.
   - cryptographic mechanisms to protect the confidentiality of remote access sessions are implemented.
-### 3.1.14
+### AC.L2-3.1.14 – REMOTE ACCESS ROUTING
 - Route remote access via managed access control points.
   - managed access control points are identified and implemented.
   - remote access is routed through managed network access control points.
-### 3.1.15
+### AC.L2-3.1.15 – PRIVILEGED REMOTE ACCESS
 - Authorize remote execution of privileged commands and remote access to security-relevant information.
   - privileged commands authorized for remote execution are identified.
   - security-relevant information authorized to be accessed remotely is identified.
   - the execution of the identified privileged commands via remote access is authorized.
   - access to the identified security-relevant information via remote access is authorized.
-### 3.1.16
+### AC.L2-3.1.16 – WIRELESS ACCESS AUTHORIZATION
 - Authorize wireless access prior to allowing such connections.
   - wireless access points are identified.
   - wireless access is authorized prior to allowing such connections.
-### 3.1.17
+### AC.L2-3.1.17 – WIRELESS ACCESS PROTECTION
 - Protect wireless access using authentication and encryption.
   - wireless access to the system is protected using encryption.
   - wireless access to the system is protected using authentication.
-### 3.1.18
+### AC.L2-3.1.18 – MOBILE DEVICE CONNECTION
 - Control connection of mobile devices.
   - mobile devices that process, store, or transmit CUI are identified.
   - the connection of mobile devices is authorized.
   - mobile device connections are monitored and logged.
-### 3.1.19
+### AC.L2-3.1.19 – ENCRYPT CUI ON MOBILE
 - Encrypt CUI on mobile devices and mobile computing platforms.
   - mobile devices and mobile computing platforms that process, store, or transmit CUI are identified.
   - encryption is employed to protect CUI on identified mobile devices and mobile computing platforms.
-### 3.1.20
+### AC.L1-3.1.20 – EXTERNAL CONNECTIONS
 - Verify and control/limit connections to and use of external systems.
   - connections to external systems are identified.
   - use of external systems is identified.
@@ -100,12 +100,12 @@
   - use of external systems is verified.
   - connections to external systems are controlled/limited.
   - use of external systems is controlled/limited.
-### 3.1.21
+### AC.L2-3.1.21 – PORTABLE STORAGE USE
 - Limit use of organizational portable storage devices on external systems.
   - use of organizational portable storage devices containing CUI on external systems is identified and documented.
   - limits on the use of organizational portable storage devices containing CUI on external systems are defined.
   - use of organizational portable storage devices containing CUI on external systems is limited as defined.
-### 3.1.22
+### AC.L1-3.1.22 – CONTROL PUBLIC INFORMATION
 - Control CUI posted or processed on publicly accessible systems.
   - individuals authorized to post or process information on publicly accessible systems are identified.
   - procedures to ensure CUI is not posted or processed on publicly accessible systems are identified.
