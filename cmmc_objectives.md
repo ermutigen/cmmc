@@ -114,6 +114,8 @@
   - a review process in in place prior to posting of any content to publicly accessible systems.
   - content on publicly accessible information systems is reviewed to ensure that it does not include CUI.
   - mechanisms are in place to remove and address improper posting of CUI.
+
+# Awareness and Training (AT)
 ### 3.2.1
 - Ensure that managers, systems administrators, and users of organizational systems are made aware of the security risks associated with their activities and of the applicable policies, standards, and procedures related to the security of those systems.
   - security risks associated with organizational activities involving CUI are identified.
