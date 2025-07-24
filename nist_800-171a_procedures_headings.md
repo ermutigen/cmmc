@@ -1,4 +1,4 @@
-### 3.1.1
+### 3.1.1 AUTHORIZED ACCESS CONTROL
 - Limit system access to authorized users, processes acting on behalf of authorized users, and devices (including other systems).
   - authorized users are identified.
   - processes acting on behalf of authorized users are identified.
@@ -6,7 +6,7 @@
   - system access is limited to authorized users.
   - system access is limited to processes acting on behalf of authorized users.
   - system access is limited to authorized devices (including other systems).
-### 3.1.2
+### 3.1.2 TRANSACTION & FUNCTION CONTROL
 - Limit system access to the types of transactions and functions that authorized users are permitted to execute.
   - the types of transactions and functions that authorized users are permitted to execute are defined
   - system access is limited to the defined types of transactions and functions for authorized users.
