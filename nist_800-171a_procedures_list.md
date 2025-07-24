@@ -6,7 +6,7 @@
     - system access is limited to authorized users.
     - system access is limited to processes acting on behalf of authorized users.
     - system access is limited to authorized devices (including other systems).
-3.1.2
+3.1.2  
   - Limit system access to the types of transactions and functions that authorized users are permitted to execute.
     - the types of transactions and functions that authorized users are permitted to execute are defined
     - system access is limited to the defined types of transactions and functions for authorized users.
